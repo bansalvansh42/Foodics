@@ -1,12 +1,22 @@
-# React + Vite
+# 🍽️ Foodics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and elegant food ordering web app built using **React**, **Redux Toolkit**, and **TailwindCSS**. The UI has been completely redesigned with a modern **indigo/violet theme** and improved responsiveness.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🍱 Browse food items by category
+- 🔍 Real-time search functionality
+- 🛒 Add to cart, adjust quantity, and delete items
+- 💸 Cart summary with checkout button
+- ✅ Protected route for checkout page (requires cart items)
+- ⚡ Smooth animations and transitions using TailwindCSS
+- 📱 Fully responsive design
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – Frontend UI
+- **Redux Toolkit** – State management for cart, category, and search
+- **React Router DOM** – Routing and protected navigation
+- **TailwindCSS** – Utility-first styling framework
+- **React Icons** – Iconography
+- **React Hot Toast** – Toast notifications
